@@ -1979,7 +1979,7 @@ stop_php_server
 check_update() {
 
 # URL of the GitHub repository raw file
-REPO_URL="https://raw.githubusercontent.com/mashunterbd/Share_termux/tree/main/share.sh"
+REPO_URL="https://raw.githubusercontent.com/mashunterbd/Share_termux/main/share.sh"
 LOCAL_FILE="/data/data/com.termux/files/usr/bin/share"
 
 # Function to check network connection
