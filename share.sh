@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Check if the script is being run as root
+if [ "$(id -u)" -ne 0 ]; then
+    echo "This script must be run as root. Please use sudo or tsu or run as root."
+    exit 1
+fi
+
+# Full tool script is below: 
+
+
 # Define the list of required tools
 required_tools=(zip wget npm python3 qrcode-terminal ffmpeg php exiftool iproute2)
 
